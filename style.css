@@ -1,0 +1,125 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,900&display=swap');
+
+
+    *,html,body{
+        margin: 0;
+        padding: 0s;
+    }
+    body{
+        background: #0f172a;
+        color: #fff;
+    }
+    header{
+        width: 95%;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        border-right: 2px solid white;
+        border-bottom-right-radius:20px;
+        border-top-right-radius: 20px;
+        margin-top: 20px;
+
+    }
+header .polkadod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+
+}
+header .polkadod .red {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 5px;
+
+}
+header .polkadod .yellow{
+    width:30px ;
+    height: 30px;
+    border-radius:50% ;
+    background-color: yellow;
+    margin: 5px;
+}
+header .polkadod .green{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 5px;
+}
+.navbar {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.navbar li{
+    margin: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.jumbotron{
+    width: 100%;
+    /* border: 1px solid white; */
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+
+}
+.jumbotron .judul{
+    font-weight: bold;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 45px;
+}
+.jumbotron .judul .titel{
+    font-size: 20px;
+    font-family: 'Poppins';
+    margin-top: 30px;
+    border-bottom:2px solid #fff;
+
+}
+
+.neh {
+    line-height: 100px;
+}
+.img-depan{
+    display: flex;
+    margin-right: 150px;
+}
+
+.about{
+    
+}
+
+.about .judul{
+    /* border: 1px solid white; */
+    width: 100%;
+    font-family: 'poppins';
+    display: flex;
+    justify-content: center ;
+}
+
+.about .isi{
+    /* border: 1px solid white; */
+    width: 100%;
+    font-family: 'poppins';
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+}
+
+    

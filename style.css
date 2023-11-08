@@ -9,7 +9,7 @@
     body{
         background: #fff;
         color: solid black;
-        
+        overflow-x: hidden;
 
     }
     header{

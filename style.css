@@ -138,73 +138,18 @@ header .polkadod .green{
     text-align: left;
 }
 
-
-.porto{
+.portfolio {
     display: flex;
-    
-}
-
-
-.porto .iki1{
-    border: 3px solid black;
-    width: 20%;
-    margin: 3%;
-    background-color: #ff5500;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    height: 100vh;
     justify-content: center;
-    align-items: center;
-    
-}
-.porto .iki2{
-    border: 3px solid black;
-    width: 20%;
-    margin: 3%;
-    background-color: #ff5500;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-.porto .iki3{
-    border: 3px solid black;
-    width: 20%;
-    margin: 3%;
-    background-color: #ff5500;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-.porto .iki4{
-    border: 3px solid black;
-    width: 20%;
-    margin: 3%;
-    background-color: #ff5500;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-.porto .iki1 img{
-    width: 250px;
+    margin-top: 200px;
+    font-family: 'poppins';
 }
 
-.porto .iki2 img{
-    width: 250px;
+.portfolio .ones{
+    
 }
 
-.porto .iki3 img{
-    width: 250px;
-}
+
+

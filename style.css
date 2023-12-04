@@ -7,8 +7,8 @@
         padding: 0s;
     }
     body{
-        background: #fff;
-        color: solid black;
+        background: #111927;
+        color: solid white;
         overflow-x: hidden;
 
     }
@@ -34,7 +34,7 @@ header .polkadod .red {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: #ff5500;
+    background-color: red;
     margin: 5px;
 
 }
@@ -42,14 +42,14 @@ header .polkadod .yellow{
     width:30px ;
     height: 30px;
     border-radius:50% ;
-    background-color: #ff5500;
+    background-color: yellow;
     margin: 5px;
 }
 header .polkadod .green{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: #ff5500;
+    background-color: green;
     margin: 5px;
 }
 .navbar {
@@ -60,11 +60,12 @@ header .polkadod .green{
     align-items: center;
     list-style-type: none;
     margin-right: 50%;
+    color: darkgray;
     
 }
 .navbar li{
     margin: 20px;
-    color: solid black;
+    color: solid white;
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: bold;
 }
@@ -78,14 +79,12 @@ header .polkadod .green{
     align-items: center;
     padding-left: 0px;
     z-index: 1;
-    
-  
-
+    color: white;
 }
 .jumbotron .judul{
     font-weight: bold;
     font-family: 'Hanken Grotesk', sans-serif;
-    color: solid black;
+    color: solid white;
     font-size: 45px;
 
 }
@@ -93,17 +92,19 @@ header .polkadod .green{
     font-size: 20px;
     font-family: 'Hanken Grotesk', sans-serif;
     margin-top: 30px;
-    border-bottom:2px solid black;
+    border-bottom:2px solid white;
+    color: orangered;
 
 }
 .sembarang{
     position: absolute;
     top: 80%;
     width: 100%;
-    height: 200px;
-    background-color: #0D221B;
+    height: 5px;
+    background-color: #9FEF00;
     z-index: -1;
-    border-top-left-radius: 40px;
+    padding: 10px;
+    /*border-top-left-radius: 40px;*/
 }
 
 .neh {
@@ -112,6 +113,7 @@ header .polkadod .green{
 .img-depan{
     display: flex;
     margin-right: 0px;
+    border: 2px solid #9FEF00;
 }
 
 .about{
@@ -141,20 +143,60 @@ header .polkadod .green{
 .abote {
     display: flex;
     width: 100%;
-    height: 100vh;
     justify-content: center;
     /* flex-direction: column; */
-    margin-top: 200px;
     font-family: 'poppins';
-    border: 1px solid black;
     /* background-color: #ff5500; */
-    padding: 10px;
+    color: white;
+    size: 120px;
+
 }
 
 .abote .isi{
     /* background-color: aqua; */
     margin-left: 20px;
+    color: white;
 }
 
+.project{
+    
+    font-family: 'poppins';
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    justify-content: center;
+    size: 50px;
+    margin-top: 30px;
+}
+.project h1{
+    justify-content: center;
+    color: white;
 
+}
+
+.adah{
+    display: flex;
+}
+.project1 {
+    border: 1px solid white;
+    width: 20%;
+    height: 40vh;
+    margin: 2.5%;
+
+}
+.project2 {
+    border: 1px solid white;
+    width: 20%;
+    height: 40vh;
+    margin: 2.5%;
+
+
+}
+.project3 {
+    border: 1px solid white;
+    width: 20%;
+    height: 40vh;
+    margin: 2.5%;
+
+}
 
